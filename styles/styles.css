@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 nav {
     background-color: darkcyan;
     padding: 10px;
@@ -33,21 +39,27 @@ main img {
     border: 1px solid black;
     padding: 2px;
     box-shadow: 0 0 30px gray;
+    float: right;
+    margin-left: 1rem;
 }
 
 aside {
     width: 20rem;
-    margin: 1rem;
-    border: 1px solid rgb(0 0 0 / 0.2);
-    padding: 1rem;
-    background-color: #b3a2a2;
-    color: #333;
     text-align: center;
+    position: relative;
 }
+
 
 aside img {
     width: 200px;
     height: auto;
+}
+
+aside h2 {
+    position: absolute;
+    top: 20px;
+    left: 130px;
+
 }
 
 footer {
@@ -55,5 +67,23 @@ footer {
     border-top: 1px solid #000;
     text-align: center;
 }
+
+/* Class Selectors */
+
+.box {
+    margin: 1rem;
+    border:1px solid rgb(0 0 0 / 0.2);
+    padding: 1rem;
+    background-color: cornsilk;
+    color: #000;
+}
+
+
+
+
+
+
+
+
 
 /* this is a comment fot CSS files hiihi, to remove it just type the same (Ctrl+/) */
