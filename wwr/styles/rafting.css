@@ -99,9 +99,6 @@ h1 {
 
 /* The stalization for the W4 flex  */
 
-header main {
-    max-width: 150;
-}
 
 nav ul {
     display: flex;
