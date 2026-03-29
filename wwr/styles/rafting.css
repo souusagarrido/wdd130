@@ -93,3 +93,94 @@ h1 {
     border: 2px solid var(--secundary-color);
 }
 
+/* The stalization for the W4 flex  */
+
+header {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+}
+
+header main {
+    max-width: 150;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #333;
+}
+
+.history-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.adventures-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    padding: 10px;
+}
+
+.adventures-grid figure {
+    margin: 0;
+    flex: 1;
+    text-align: center;
+}
+
+.adventures-grid img {
+    width: 100%;
+    height: auto;
+}
+
+figcaption {
+    font-style: italic;
+    margin-top: 5px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+.social-links {
+    display: flex;
+    gap: 15px;
+}
+
+.social-links img {
+    width: 30px;
+    height: 30px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container img {
+    width: 15%;
+    height: auto;
+    aspect-ratio: 3/2;
+}
+
+/* 000000000000000000000000000000000000000000000000000000000000000000000 */
+
+
