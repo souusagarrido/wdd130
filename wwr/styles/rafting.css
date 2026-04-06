@@ -162,5 +162,71 @@ footer {
 }
 
 /* 000000000000000000000000000000000000000000000000000000000000000000000 */
+/*  */
+
+.contact-info {
+    display: grid;
+    align-items: flex-end;
+    padding: 20px;
+    gap: 0;
+
+}
+.map-container {
+    width: 300px;
+    height: 450px;
+    border: none;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+fieldset {
+    border: none;
+    padding: 0;
+    margin-bottom: 15px;
+    
+}
+
+.form-item {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Profiles Grid */
+.profiles-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+h2,p {
+    text-align: center;
+}
+
+.profiles-grid img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 30%; 
+}
+
+button {
+    background-color: rgb(193, 193, 243);
+    color: #0f0e0e;
+    margin: 0 auto;
+    display: block;
+}
+
+input {
+    padding: .75;
+    width: 350px;
+}
+
 
 
