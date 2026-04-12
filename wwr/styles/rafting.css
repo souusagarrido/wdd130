@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #f2f8ff;
+    --primary-color: #a99e60;
     --secundary-color: #a62626;
     --accent1-color: #1d3247;
     --accent2-color: #f1f1f1;
@@ -28,7 +28,7 @@ body {
 }
 
 header, main, footer {
-    width: 840px;
+    width: auto;
     margin: 0 auto;
 }
 
@@ -39,9 +39,12 @@ h1, h2 {
 
 nav, p, section, article {
     margin: 16px;
-    padding: 8px;
+    padding: 10px;
 }
 
+section {
+    text-align: center;
+}
 .socialmedia a {
     text-decoration: none;
 }
@@ -93,7 +96,6 @@ h1 {
 .hero article img {
     float: right;
     width: 125px;
-    margin-left: 15px;
     border: 2px solid var(--secundary-color);
 }
 
@@ -126,7 +128,7 @@ nav a {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 20px;
-    padding: 10px;
+    padding: 15px 15px;
 }
 
 .adventures-grid figure {
@@ -137,7 +139,7 @@ nav a {
 
 .adventures-grid img {
     width: 100%;
-    height: auto;
+    height: 50%;
 }
 
 figcaption {
@@ -149,7 +151,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 10px;
     background-color: #333;
     color: white;
 }
@@ -205,7 +207,7 @@ form {
 
  .team {
     margin-top: 30px;
-    padding: 20px;
+    padding: 10px;
     border: 1px solid #aaa;
     background-color: #eee9e9;
  }
@@ -217,6 +219,66 @@ form {
     gap: 20px;
  }
 
- 
+ /* -------------------------------------- */
+ /* HOME AND TRIP...? */
+/* NEWSLETTER */
+.newsletter {
+    padding: 20px;
+    text-align: center;
+}
 
- 
+.newsletter input {
+    padding: 10px;
+    margin: 5px;
+}
+
+/* CTA */
+.cta {
+    text-align: center;
+    margin: 50px;
+}
+
+.cta a {
+    background: #f2a365;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+}
+
+/* GRID HOME */
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+.grid img {
+    width: 90%;
+    height: 80%;
+}
+
+/* TRIPS */
+.trips {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.trip img {
+    width: 100%;
+}
+
+/* TABLE */
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid #333;
+    padding: 10px;
+}
+
